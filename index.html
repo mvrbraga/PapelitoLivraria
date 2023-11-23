@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- titulo ----------->
+    <title>Papelito livraria // A sua papelaria</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+
+    <header class="header">
+ <!-- Conteúdo do cabeçalho, incluindo logo, formulário de pesquisa e ícones -->
+        <div class="header-1">
+
+            <a href="" class="logo"><i class="fas fa-book"> Papelito Livraria</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="pesquise" id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="" class="fas fa-heart"></a>
+                <a href="addtocart.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+ <!-- Barra de navegação com links para seções da página -->
+            <div class="navbar">
+                <a href="#home">início</a>
+                <a href="#featured">livros</a>
+                <a href="#arrivals">novas chegadas</a>
+    
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        
+    </div>
+
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+       
+    </div>
+
+   
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>cadastro</h3>
+            <span>email</span>
+            <input type="email" name="" class="box"  placeholder="email">
+            <span>senha</span>
+            <input type="password" name="" class="box"  placeholder="senha">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">lembrar usuário</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>Esqueceu sua senha? <a href="">clique aqui</a></p>
+            <p>não possui conta? <a href="">crie uma</a></p>
+        </form>
+    </div>
+
+
+      <section class="home" id="home">
+
+        <div class="row">
+ <!-- Seção inicial da página, com destaque para livros e descontos -->
+            <div class="content">
+                <h3>Até 55% de desconto</h3>
+                <p> Livros novos e usados nos preços acessíveis.</p>
+                <a href="" class="btn">compre agora</a>
+            </div>
+
+            <div class="swiper books-list" >
+
+                <div class="swiper-wrapper">
+                        <!-- Seção de livros em destaque, usando o Swiper para criar um carrossel -->
+                    <a href="" class="swiper-slide"><img src="./image/livro1.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/livro7.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/livro3.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/livro4.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/livro5.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/livro6.png" alt=""></a>
+                </div>
+
+                <img src="./image/stand.png" class="stand" alt="">
+                
+            </div>
+
+
+        </div>
+
+      </section>
+
+ 
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>frete grátis</h3>
+                <p>para compras acima de 70 reais.</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Segurança dos seus dados</h3>
+                <p>Seus meios de pagamento e dados sempre seguros.</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 atendemos você</h3>
+                <p>Nos ligue caso haja imprevistos</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="featured" id="featured">
+
+        <div class="heading"><span>Livros</span></div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro1.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Dune</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro2.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Mais esperto que o diabo</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro3.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>The house of Mounthatom</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro4.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Anne de Green Gables</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro5.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>O pequeno príncipe</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro6.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>1984</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro7.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Harry Potter e a Pedra Filosofal</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro8.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Você é insubstituivel</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro9.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>15:50</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro4.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Anne de Green Gables</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                    
+                    </div>
+
+                    <div class="image">
+                        <img src="./image/livro5.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>O Pequeno príncipe</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="" class="btn">adicione ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+ 
+      <section class="arrivals" id="arrivals">
+
+            <div class="heading"><span>Novas chegadas</span></div>
+
+            <div class="swiper arrivals-slider">
+
+                <div class="swiper-wrapper">
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro9.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>livro novo</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro7.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Harry Potter e a Pedra Filosofal</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The house of Mounthatom</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Anne of Green Gables</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>O Pequeno príncipe</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="swiper arrivals-slider">
+
+                <div class="swiper-wrapper">
+
+                    
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro6.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>1984</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro7.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Harry Potter e a Pedra Filosofal</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro8.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Você é insubstituivel</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro9.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>15:50</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/livro4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Anne of Green Gables</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+      </section>
+
+
+        <section class="deal">
+
+            <div class="content">
+                <h3>Blackfriday</h3>
+                <h1>Descontos imperdíveis</h1>
+                <p>
+                    Toda a livraria com descontos sensacionais. Aproveite!
+                </p>
+                <a href="" class="btn">Compre agora</a>
+            </div>
+
+            <div class="image">
+                <img src="./image/deal-img.png" alt="">
+            </div>
+
+        </section>
+
+          <section class="footer">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <h3>nossas lojas</h3>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>india</a>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>USA</a>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>russia</a>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>france</a>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>japan</a>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>africa</a>
+                    </div>
+
+                    <div class="box">
+                        <h3>links</h3>
+                        <a href=""><i class="fas fa-arrow-right"></i>início</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>Livros</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>Novos</a>
+                    
+                      
+                    </div>
+
+                
+
+                    <div class="box">
+                        <h3>contato</h3>
+                        <a href=""><i class="fas fa-phone"></i>639999999</a>
+                        <a href=""><i class="fas fa-phone"></i>638988888</a>
+                        <a href=""><i class="fas fa-envelope"></i>papelito@gmail.com</a>
+                        <img src="./image/worldmap.png" alt="" class="map">
+                    </div>
+                </div>
+
+                <div class="share">
+                    <a href=""><i class="fas fa-facebook"></i></a>
+                    <a href=""><i class="fas fa-instagram"></i></a>
+                    <a href=""><i class="fas fa-whatsapp"></i></a>
+                </div>
+
+                <div class="credit">Feito por Maria Vitória Rodrigues Braga</div>
+
+          </section>
+
+
+
+
+  <!-- Rodapé da página, incluindo informações sobre lojas, links, contato e redes sociais -->
+
+
+
+
+
+
+      <!---- swiper cdn link ---------->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+     
+
+     <!------- customer script link --------->
+
+     <script src="./js/script.js"></script>
+    
+</body>
+</html>
